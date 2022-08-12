@@ -12,15 +12,15 @@ public class Contact {
 
 
 
-    public String getFirstName() {
-        return firstName;
+    public String getFirstName(String firstName) {
+        return this.firstName;
     }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
+    public String getLastName(String lastname) {
         return lastName;
     }
 
@@ -28,8 +28,8 @@ public class Contact {
         this.lastName = lastName;
     }
 
-    public String getAddress() {
-        return address;
+    public String getAddress(String address) {
+        return this.address;
     }
 
     public void setAddress(String address) {
@@ -60,8 +60,8 @@ public class Contact {
         this.zip = zip;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getPhoneNumber(Long phoneNumber) {
+        return this.phoneNumber;
     }
 
     public void setPhoneNumber(String phoneNumber) {
